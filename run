@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Linux
+
+project_name="ava"
+config="Release"
+
+if [ $# -eq 0 ]
+  then
+    echo "The proper usage would be: $0 -[config]"
+    echo "[config] - can be d(debug) or r(release)"
+    echo ""
+    echo "$config selected as default"
+    read -p "Press any key to continue... " -n1 -s
+
+elif [ "$1" == "-d" ]
+  then
+    config="Debug"
+
+elif [ "$1" == "-r" ]
+  then 
+    config="Release"
+
+else
+    echo "Inavalid config $1"
+    echo ""
+    echo "$config selected as default"
+    read -p "Press any key to continue... " -n1 -s
+fi    
+
+
+clear
+
+cmake --build ./build/$config --config $config --target all -- 
+./build/$config/test/${project_name}_tst 
+echo "" 
+./build/$config/src/${project_name}_run

@@ -1,0 +1,25 @@
+Basic setup:
+  File generation:
+    ☐ create an image class with an image array
+    ☐ create a method to write the image as a ppm file
+  Vectors:
+    ☐ basic math(addition, subtraction, multiplication, division)
+    ☐ length
+    ☐ normalise
+    ☐ dot product
+    ☐ corss product
+  Ray:
+    ☐ position at time
+  Camera:
+    ☐ aspect ratio
+    ☐ focal length
+    ☐ coordinate system
+    ☐ generate ray
+  Objects:
+    Hittable:
+      ☐ create a hitRecord
+      ☐ make hit function
+  Engine:
+    ☐ render function
+    ☐ trace ray
+    ☐ generate image
