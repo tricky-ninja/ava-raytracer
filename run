@@ -31,7 +31,4 @@ fi
 
 clear
 
-cmake --build ./build/$config --config $config --target all -- 
-./build/$config/test/${project_name}_tst 
-echo "" 
-./build/$config/src/${project_name}_run
+cmake --build ./build/$config --config $config --target all --  && ./build/$config/test/${project_name}_tst && echo "" && ./build/$config/src/${project_name}_run

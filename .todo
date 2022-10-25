@@ -1,9 +1,9 @@
 Basic setup:
   File generation:
-    ☐ create an image class with an image array
-    ☐ create a method to write the image as a ppm file
+    ✔ create an image class with an image array @done(22-10-25 17:09)
+    ✔ create a method to write the image as a ppm file @done(22-10-25 17:09)
   Vectors:
-    ☐ basic math(addition, subtraction, multiplication, division)
+    ✔ basic math(addition, subtraction, multiplication, division) @done(22-10-25 17:12)
     ☐ length
     ☐ normalise
     ☐ dot product
