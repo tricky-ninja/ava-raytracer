@@ -1,13 +1,13 @@
 Basic setup:
-  File generation:
+  ✔ File generation: @done(22-10-25 17:09)
     ✔ create an image class with an image array @done(22-10-25 17:09)
     ✔ create a method to write the image as a ppm file @done(22-10-25 17:09)
-  Vectors:
-    ✔ basic math(addition, subtraction, multiplication, division) @done(22-10-25 17:12)
-    ☐ length
-    ☐ normalise
-    ☐ dot product
-    ☐ corss product
+  ✔ Vectors: @done(22-10-27 16:47)
+    ✔ basic math(addition, subtraction, multiplication, division) @done(22-10-27 14:27)
+    ✔ length @done(22-10-27 16:29)
+    ✔ normalise @done(22-10-27 16:29)
+    ✔ dot product @done(22-10-27 16:47)
+    ✔ corss product @done(22-10-27 16:47)
   Ray:
     ☐ position at time
   Camera:
