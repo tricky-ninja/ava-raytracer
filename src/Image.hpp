@@ -3,31 +3,13 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-
-// Just a temporary struct, will replace with a more versatile class
-struct Color
-{
-  double red, green, blue;
-  Color()
-  {
-    red = 0;
-    green = 0;
-    blue = 0;
-  }
-  Color(double r, double g, double b)
-  {
-    red = r;
-    green = b;
-    blue = g;
-
-  }
-};
+#include "Vector3.hpp"
 
 class Image
 {
 public:
 
-  Image(uint width, uint height);
+  Image(uint width, float aspRatio);
 
   ~Image();
 
@@ -41,6 +23,9 @@ public:
   }
 
   void generateImage(const std::string &filename) const;
+
+public:
+  double aspectRatio;
 
 private:
   uint m_imgWidth;

@@ -1,6 +1,6 @@
 #include "Image.hpp"
 
-Image::Image(uint width, uint height) : m_imgWidth(width), m_imgHeight(height)
+Image::Image(uint width, float asptRatio) : aspectRatio(asptRatio), m_imgWidth(width), m_imgHeight(m_imgWidth/aspectRatio)
 {
   // Initialise an array of Color*
   image = new Color *[m_imgHeight];
@@ -33,7 +33,7 @@ void Image::generateImage(const std::string &filename) const
 
       Color color = image[y - 1][x];
 
-      imgFile << int(color.red * 255) << " " << int(color.green * 255) << " " << int(color.blue * 255) << "\n";
+      imgFile << int(color[0] * 255) << " " << int(color[1] * 255) << " " << int(color[2] * 255) << "\n";
     }
     imgFile << "\n#-----------------------------\n";
   }

@@ -8,17 +8,19 @@ Basic setup:
     ✔ normalise @done(22-10-27 16:29)
     ✔ dot product @done(22-10-27 16:47)
     ✔ corss product @done(22-10-27 16:47)
-  Ray:
-    ☐ position at time
-  Camera:
-    ☐ aspect ratio
-    ☐ focal length
-    ☐ coordinate system
-    ☐ generate ray
+  ✔ Ray: @done(22-10-31 17:12)
+    ✔ position at time @done(22-10-31 17:12)
+  ✔ Camera: @done(22-10-31 18:15)
+    ✔ aspect ratio @done(22-10-31 18:15)
+    ✔ focal length @done(22-10-31 18:15)
+    ✔ coordinate system @done(22-10-31 18:15)
+    ✔ generate ray @done(22-10-31 18:15)
   Objects:
     Hittable:
       ☐ create a hitRecord
       ☐ make hit function
+      ☐ make an object manager
+    ☐ make a sphere object
   Engine:
     ☐ render function
     ☐ trace ray
