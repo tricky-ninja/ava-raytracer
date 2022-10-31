@@ -25,5 +25,5 @@ int main()
       testScene.img.setPixel(w, h, blueSky(ray));
     }
   }
-  testScene.img.generateImage("./test.ppm");
+  testScene.img.generateImage("./main.ppm");
 }

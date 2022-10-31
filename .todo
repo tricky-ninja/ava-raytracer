@@ -16,10 +16,10 @@ Basic setup:
     ✔ coordinate system @done(22-10-31 18:15)
     ✔ generate ray @done(22-10-31 18:15)
   Objects:
-    Hittable:
-      ☐ create a hitRecord
-      ☐ make hit function
-      ☐ make an object manager
+    ✔ Hittable: @done(22-10-31 18:35)
+      ✔ create a hitRecord @done(22-10-31 18:35)
+      ✔ make hit function @done(22-10-31 18:35)
+      ✔ make an object manager @done(22-10-31 18:35)
     ☐ make a sphere object
   Engine:
     ☐ render function
